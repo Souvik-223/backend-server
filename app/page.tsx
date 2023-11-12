@@ -1,5 +1,5 @@
 'use client';
-
+// To test thr backend server
 import { useChat } from 'ai/react';
 
 export default function Chat() {
