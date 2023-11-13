@@ -1,6 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Backend details 
+This is the Backend for the AI-Buddy chrome extension. Made using Vercel AI SDK, Hugging face AI model and Next JS Api routing feature in NextJS 14. All the Backend routes are in the api folder. 
 
-## Getting Started
+### Chat route:
+This routes contains the main post request to the hugging face ai model and generates the streaming response for the api consumer to be used.
+
+Environment Variables:-
+
+```bash
+HUGGINGFACE_API_KEY=
+```
+
+
+## Development Server
 
 First, run the development server:
 
@@ -28,9 +39,3 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
